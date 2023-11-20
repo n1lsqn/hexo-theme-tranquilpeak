@@ -46,3 +46,27 @@
     font-weight: 700;
     src:         local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url(../fonts/merriweather-bold-italic.ttf) format('truetype');
 }
+
+@font-face {
+    font-family: 'Ricty Diminished';
+    font-style: normal;
+    src: local('Ricty Diminished'), url(../fonts/RictyDiminished-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Ricty Diminished Discord';
+    font-style: normal;
+    src: local('Ricty Diminished Discord'), url(../fonts/RictyDiminishedDiscord-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'GenShinGothic';
+    font-style: normal;
+    src: local('GenShinGothic'), url(../fonts/GenShinGothic-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'GenShinGothicP';
+    font-style: normal;
+    src: local('GenShinGothicP'), url(../fonts/GenShinGothi-P-Regular.ttf) format('truetype');
+}

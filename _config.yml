@@ -46,12 +46,12 @@ sidebar:
             title: global.archives
             url: /all-archives
             icon: fa fa-archive
-        search:
-            title: global.search
-            url: "#search"
-            icon: fa fa-search
+        # search:
+            # title: global.search
+            # url: "#search"
+            # icon: fa fa-search
             # `open-algolia-search` classes are used to open algolia search modal
-            class: open-algolia-search
+            # class: open-algolia-search
         about:
             title: global.about
             url: "#about"
@@ -59,31 +59,11 @@ sidebar:
     author_links:
         github:
             title: global.github
-            url: https://github.com/
+            url: https://github.com/n1lsqn
             icon: fab fa-github
-        stack_overflow:
-            title: global.stack_overflow
-            url: http://stackoverflow.com/users
-            icon: fab fa-stack-overflow
-        twitter:
-            title: global.twitter
-            url: https://twitter.com/
-            icon: fab fa-twitter
-        facebook:
-            title: global.facebook
-            url: https://facebook.com/
-            icon: fab fa-facebook
-        google_plus:
-            title: global.google_plus
-            url: https://plus.google.com/
-            icon: fab fa-google-plus
-        linked_in:
-            title: global.linkedin
-            url: https://www.linkedin.com/profile/
-            icon: fab fa-linkedin
         mail:
             title: global.mail
-            url: mailto
+            url: yuuki12_25@icloud.com
             icon: fa fa-envelope
     rss:
         rss:
