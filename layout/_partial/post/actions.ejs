@@ -65,6 +65,18 @@
                 </a>
             </li>
         <% } %>
+        <!--
+        <li class="post-action hide-xs">
+            <a
+                class="post-action-btn btn btn--default"
+                target="new" href="<%= url %>"
+                url="https://misskeyshare.link/share.html?text={{post.title}}&url={{post.permalink}}"
+                aria-label="<%= __('global.share_on_' + option) %>"
+                onclick="window.open(this.href+encodeURI(decodeURI(document.title))+'&url='+encodeURI(decodeURI(location.href)), '', 'width=500,height=400'); return false;">
+                <img src="https://raw.githubusercontent.com/misskey-dev/assets/main/icon.png" aria-hidden="true" width="30" height="30" class="button"></i>
+            </a>
+        </li>
+        -->
         <% if (post.comments) { %>
             <% if (theme.gitment.enable) { %>
                 <li class="post-action">
