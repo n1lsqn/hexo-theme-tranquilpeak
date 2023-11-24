@@ -54,6 +54,7 @@ global:
     go_to_homepage: "Go to homepage"
     open_link: "Open the link"
     open_post: "Open the post"
+    misskey: "Misskey"
 
 pagination:
     page: "page %d"
@@ -81,6 +82,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: "Hi"
+    bio: "ブログ名はStrayKidsの「Back Door」から。"
     # Your job
     job: "Programmer"
