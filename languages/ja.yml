@@ -48,6 +48,7 @@ global:
     go_to_homepage: "ホームページへ"
     open_link: "リンクを開く"
     open_post: "投稿を開く"
+    misskey: "Misskey"
 
 pagination:
     page: "page %d"
