@@ -182,7 +182,10 @@ var feeds = [];
     <!--STYLES-->
     <%- css('assets/css/style-fys2xt068xcd1elxorbzxjiiz6dkq4cwfrcdyi8g5ernrgy3cxhnuwden9zp.min.css') %>
     <!--STYLES END-->
-    <%- partial('google-analytics') %>
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      </script>
+    <script defer src="/_vercel/insights/script.js"></script>
     <%- partial('baidu-analytics') %>
 
     <% if (page.comments) { %>
